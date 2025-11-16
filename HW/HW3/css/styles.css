@@ -1,0 +1,44 @@
+body {
+    font-family: Arial;
+    padding: 20px;
+    background: #fafafa;
+  }
+  
+  h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  #error {
+    color: red;
+    font-size: 14px;
+  }
+  
+  #results {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  .card {
+    background: white;
+    padding: 10px;
+    width: 180px;
+    border-radius: 6px;
+    box-shadow: 0 0 5px #ccc;
+    text-align: center;
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 6px;
+  }
+  
+  /* more rules */
+  .card h2 { font-size: 18px; }
+  .card p { margin: 5px 0; }
+  
